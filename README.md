@@ -56,17 +56,19 @@ The project emphasizes real-world usage of Ethereum, smart contracts, and decent
 
 ### 2. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/bhavana0312/Cryptohives/tree/master
 cd /current_project_directory/
+```
 
 
 ---
 
 ### 3. Install Dependencies
 
-bash
+```bash
 npm install
+```
 
 
 ---
@@ -74,15 +76,15 @@ npm install
 ### 4. Compile and Deploy the Smart Contract
 
 Make sure Ganache is running locally (default: http://127.0.0.1:8545).
-bash
+```bash
 ganache --chain.chainId 1337 --server.port 8545 --chain.networkId 1337
+```
 
 
-
-bash
+```bash
 truffle compile
 truffle migrate --network development --reset
-
+```
 
 ---
 
@@ -94,10 +96,10 @@ In src/web3.js, ensure the provider is correctly set to your Ganache network.
 
 ### 6. Start the Frontend
 
-bash
+```bash
 cd book-rental-frontend
 npm start
-
+```
 
 The app will be available at: [http://localhost:3000](http://localhost:3000)
 
@@ -157,13 +159,13 @@ The app will be available at: [http://localhost:3000](http://localhost:3000)
 ## Testing
 
 Make sure Ganache is running locally (default: http://127.0.0.1:8545).
-bash
+```bash
 ganache --chain.chainId 1337 --server.port 8545 --chain.networkId 1337
-
+```
 and then in another prompt window run
-bash
+```bash
 truffle test
-
+```
 
 ---
 
