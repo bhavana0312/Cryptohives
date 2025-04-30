@@ -57,7 +57,7 @@ The project emphasizes real-world usage of Ethereum, smart contracts, and decent
 ### 2. Clone the Repository
 
 bash
-git clone https://github.com/PranavareddyV/Cryptohives
+git clone (https://github.com/bhavana0312/Cryptohives/tree/master)
 cd /current_project_directory/
 
 
