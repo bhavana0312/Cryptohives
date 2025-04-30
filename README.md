@@ -85,6 +85,7 @@ ganache --chain.chainId 1337 --server.port 8545 --chain.networkId 1337
 truffle compile
 truffle migrate --network development --reset
 ```
+After migrating the smart contact, make sure the contact address in the code(BookRental.json and contractAddress.json) is correctly updated.
 
 ---
 
